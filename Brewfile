@@ -4,6 +4,7 @@ tap 'homebrew/cask-versions'
 
 # Binaries
 brew 'bun'
+brew 'composer'
 brew 'gh'
 brew 'git'
 brew 'nvm'
