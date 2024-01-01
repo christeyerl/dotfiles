@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
+tap 'oven-sh/bun'
 
 # Binaries
 brew 'bun'
