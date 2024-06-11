@@ -11,7 +11,6 @@ alias sites="cd $HOME/Developer/Sites"
 alias a="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
-alias seed="php artisan db:seed"
 
 # Git
 alias gst="git status"

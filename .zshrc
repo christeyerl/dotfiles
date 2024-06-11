@@ -6,5 +6,3 @@ source $DOTFILES/path.zsh
 
 # Load aliases
 source $DOTFILES/alias.zsh
-
-cd $HOME/Developer/Sites
