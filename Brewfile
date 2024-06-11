@@ -1,6 +1,4 @@
 # Taps
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'oven-sh/bun'
 
 # Binaries
@@ -18,12 +16,12 @@ cask 'arc'
 cask 'blender'
 cask 'discord'
 cask 'figma'
-cask 'firefox-developer-edition'
+cask 'firefox@developer-edition'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'herd'
 cask 'httpie'
 cask 'notion'
+cask 'notion-calendar'
 cask 'phpstorm'
 cask 'raycast'
 cask 'slack'

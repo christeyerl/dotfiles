@@ -25,5 +25,4 @@ git clone https://github.com/christeyerl/dotfiles.git ~/.dotfiles
 ```bash
 cd ~/.dotfiles && ./fresh.sh
 ```
-5. Start `Herd.app` and run its install process.
-6. Restart your computer to finalize the process.
+5. Restart your computer to finalize the process.
