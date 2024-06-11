@@ -11,16 +11,16 @@ fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -s .zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
 brew update
 
-# Install all our dependencies with bundle (See Brewfile)
+# Install all dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
-# Config Git
+# Set up Git
 git config --global user.name "Chris Teyerl"
 git config --global user.email "chris.teyerl@cosamey.com"
 git config --global core.excludesfile ~/.dotfiles/.gitignore_global
@@ -28,7 +28,7 @@ git config --global core.excludesfile ~/.dotfiles/.gitignore_global
 # Install global Composer dependencies
 composer global require laravel/installer statamic/cli
 
-# Create a projects directories
+# Create projects directories
 mkdir $HOME/Developer
 mkdir $HOME/Developer/Archive
 mkdir $HOME/Developer/Misc
