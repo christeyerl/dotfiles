@@ -34,6 +34,7 @@ cask 'warp'
 
 # Fonts
 cask 'font-inconsolata'
+cask 'font-inter'
 cask 'font-lato'
 cask 'font-monaspace'
 cask 'font-open-sans'
