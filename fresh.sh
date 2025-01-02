@@ -23,10 +23,8 @@ brew bundle --file ./Brewfile
 # Set up Git
 git config --global user.name "Chris Teyerl"
 git config --global user.email "chris.teyerl@cosamey.com"
+git config --global core.editor nano
 git config --global core.excludesfile ~/.dotfiles/.gitignore_global
-
-# Install global Composer dependencies
-composer global require laravel/installer statamic/cli
 
 # Create projects directories
 mkdir $HOME/Developer

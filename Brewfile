@@ -3,7 +3,6 @@ tap 'oven-sh/bun'
 
 # Binaries
 brew 'bun'
-brew 'composer'
 brew 'gh'
 brew 'git'
 brew 'sqlite'
