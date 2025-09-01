@@ -21,8 +21,12 @@ After backing up your old Mac you may now follow these install instructions to s
 ```bash
 git clone https://github.com/christeyerl/dotfiles.git ~/.dotfiles
 ```
-4. Run the instalation with:
+4. Make the setup script executable
+```bash
+cd ~/.dotfiles && chmod +x fresh.sh
+``` 
+5. Run the instalation with:
 ```bash
 cd ~/.dotfiles && ./fresh.sh
 ```
-5. Restart your computer to finalize the process.
+6. Restart your computer to finalize the process.
