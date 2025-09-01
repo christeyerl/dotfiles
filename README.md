@@ -16,17 +16,13 @@ If you're migrating from an existing Mac, you should first make sure to backup a
 After backing up your old Mac you may now follow these install instructions to setup a new one.
 
 1. Update macOS to the latest version through system preferences.
-2. Copy existing or generate new SSH key.
-3. Clone this repo to `~/.dotfiles` with:
-```bash
-git clone https://github.com/christeyerl/dotfiles.git ~/.dotfiles
-```
-4. Make the setup script executable
+2. Dowload repository to `~/.dotfiles`
+3. Make the setup script executable
 ```bash
 cd ~/.dotfiles && chmod +x fresh.sh
 ``` 
-5. Run the instalation with:
+4. Run the instalation with:
 ```bash
-cd ~/.dotfiles && ./fresh.sh
+./fresh.sh
 ```
-6. Restart your computer to finalize the process.
+5. Restart your computer to finalize the process.
