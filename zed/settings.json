@@ -1,0 +1,61 @@
+{
+  "agent": {
+    "button": false,
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "buffer_font_size": 12,
+  "collaboration_panel": {
+    "button": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "default_open_behavior": "new_window",
+  "disable_ai": true,
+  "git_panel": {
+    "entry_primary_click_action": "file_diff",
+    "group_by": "staging",
+    "tree_view": true,
+  },
+  "languages": {
+    "PHP": {
+      "language_servers": ["phpantom", "!phpactor", "!intelephense", "!phptools", "..."],
+    },
+  },
+  "outline_panel": {
+    "button": false,
+  },
+  "preferred_line_length": 120,
+  "project_panel": {
+    "dock": "left",
+    "entry_spacing": "standard",
+    "git_status_indicator": true,
+  },
+  "restore_on_startup": "launchpad",
+  "scroll_beyond_last_line": "off",
+  "search": {
+    "button": false,
+  },
+  "session": {
+    "restore_unsaved_buffers": false,
+    "trust_all_worktrees": true,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "title_bar": {
+    "show_branch_status_icon": true,
+    "show_menus": true,
+    "show_onboarding_banner": false,
+    "show_sign_in": false,
+  },
+  "toolbar": {
+    "code_actions": true,
+  },
+  "ui_font_size": 14,
+}
